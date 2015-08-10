@@ -19,7 +19,7 @@ defmodule ExFSWatch.Mixfile do
   end
 
   defp deps do
-    [ {:fs, "~> 0.9"} ]
+    [ { :fs, github: "VerKnowSys/fs", override: true } ]
   end
 
   defp package do
